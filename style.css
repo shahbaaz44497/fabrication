@@ -1,0 +1,645 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg-image{
+    background-image: url(../images/fab1.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 100vh; 
+    /* animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; */
+    /* animation: slide 3s linear infinite; */
+}
+.bg-image{
+    margin-top: 100px;
+}
+
+
+.navbar{
+    background-color: black;
+    position: fixed !important;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+}
+.nabar{
+    top: 0px;
+}
+
+
+.h5:hover{
+    color:red;
+}
+.bannerimg{
+    position: relative;
+    z-index: 1;
+    background-image: url(../images/banner\ img.jpg);
+    background-attachment: fixed;
+    height: 50vh;
+    background-size: cover;
+    background-position: 50% 0;
+}
+.bannerimg::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: rgba(52, 52, 60, 0.3);
+    content: " ";
+}
+.icon{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    
+
+}
+.icon::after{
+    content: " ";
+    width: 10%;
+    border-bottom: 1px solid white;
+    position: absolute;
+    bottom: -40px;
+   
+}
+.icon i{
+    font-size: 28px;
+}
+.bg-dark{
+    margin: 50px;
+    height: 50vh;
+    padding-bottom: 500px;
+}
+
+
+  .bg-aboutus h1{
+    text-align: center;
+    font-style: italic;
+font-size: 100px;
+padding-left: 20px;
+padding-top: 200px;
+animation-name: examp;
+animation-duration: 5s;
+animation-iteration-count: infinite; 
+}
+@keyframes examp {
+    from{color: blue;}
+    to{color: red;}
+}
+
+
+    
+    .bg-aboutus {
+      background-image: url('../images/about\ img.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 100px;
+      
+    }
+    
+    .aboutus {
+      color: white;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    .section-img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    
+    .client-card {
+      margin-bottom: 20px;
+    }
+    
+    .icon1, .icon2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+
+
+
+    
+    
+    .bg-services {
+      background: url('../images/bg-services.jpeg');
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    .bg-services{
+        margin-top: 100px;
+    }
+    
+    .ser {
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      font-size: 2.5rem;
+      animation-name: ex;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    }
+    
+
+    @keyframes ex {
+    from{color: green;}
+    to{color: darkblue;}
+}
+
+    .roll, .ben {
+      margin-bottom: 15px;
+      border-radius: 8px;
+    }
+    
+    .shedimg img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 15px;
+      border-radius: 8px;
+    }
+    
+    .what {
+      color: #25D366;
+    }
+
+    
+.nabar9{
+    top: 0px;
+
+}
+
+
+.class7{
+    box-shadow: 1px 2px 2px 2px;
+}
+.class7:hover{
+    background-color:skyblue;
+    color: white;
+    transition:1s;
+}
+.ben{
+    background-color: aqua;
+    text-align: center;
+
+}
+.shutter{
+    border-radius: 5px;
+
+}
+.shutter:hover{
+    background-color: skyblue;
+    color: aliceblue;
+}
+  
+.roll{
+    border-radius: 6px;
+    color: black;
+}
+.roll:hover{
+    color: whitesmoke;
+}
+
+
+
+.bg-image1{
+    background-image: url(../images/img\ 4.jpg);
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+}
+
+
+.shedimg img {
+    position: relative;
+    width: 70%
+} 
+
+.shedimg img:hover{
+    border: 3px solid orange;
+
+    
+    
+}
+.image{
+    margin-left: 95px;
+}
+.class{
+    box-shadow: 1px 3px 5px 2px;
+    
+}
+
+.image5{
+    border-radius: 5px;
+    
+}
+.image5:hover{
+    border-color: blue;
+    box-shadow: 1px 5px 6px 2px peru;
+
+}
+
+.photoimage{
+    margin-top: 100px;
+    height: 60vh;
+}
+.nabar2{
+    top: 0px;
+}
+
+.nabar5{
+    top: 0px;
+}
+
+
+
+.he{
+    height: 35vh;
+}
+.he:hover{
+    border: 3px solid red;
+}
+
+.logo {
+      max-width: 120px;
+      height: auto;
+    }
+    
+    .navbar {
+      padding: 10px 0;
+    }
+    
+    .carousel {
+      margin-top: 15px;
+    }
+    
+    .carousel-item img {
+      height: 300px;
+      object-fit: cover;
+    }
+    
+    .hed {
+      text-align: center;
+      margin: 30px 0;
+      font-size: 8rem;
+      color: #333;
+      margin-top: 100px;
+      
+      animation-name: examples;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes examples {
+    from {color: aqua;}
+    to{color: brown;}
+
+}
+
+    
+    
+    .project-img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .project-img:hover{
+        border: 2px solid red;
+    }
+    
+    .what {
+      color: #25D366;
+    }
+    
+.bg-contact{ 
+    background-image: url(../images/contact\ img.jpg);
+    background-size: cover;
+    height: 60vh;
+      background-position: center;
+      padding: 80px 0;
+      text-align: center;
+      position: relative;
+      margin-top: 100px;   
+}
+
+
+.cont{
+    margin-left: 300px;
+    color: brown;
+    padding-top: 100px;
+    font-size: 100px;
+    font-style: italic;
+    animation-name: exampees;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes exampees {
+    from{color: black;}
+    to{color: violet;}
+}
+
+
+/* .logo {
+      max-height: 50px;
+      width: auto;
+    } */
+    
+
+    
+    
+    
+    .tele {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #0d6efd;
+    }
+    
+    .date {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .tue {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: space-between;
+    }
+    
+    .mon, .wed, .thu, .fri, .sat, .sun, .hol {
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 0.9rem;
+    }
+    
+    .par {
+      margin-top: 5px;
+    }
+    
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+    
+    textarea {
+      height: 150px;
+    }
+    
+    iframe {
+      width: 100%;
+      height: 300px;
+    }
+    
+    .what {
+      color: #25D366;
+    }
+    
+
+
+
+
+
+
+.env{
+    margin-left: 600px;
+    font-size: 35px;
+    margin-bottom:    
+}
+
+.Nivsee{
+    background-color: blue;
+    color: whitesmoke;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.Nivsee:hover{
+    background-color: brown;
+}
+.over{
+    overflow: hidden;
+}
+body{
+    overflow-x: hidden;
+}
+
+
+.na{
+    top: 0px;
+}
+.par{
+    margin-top: px;
+}
+.h{
+    margin-top: 150px;
+
+}
+.work:hover{
+    border-bottom: 1px solid blue;
+}
+
+.navr{
+  top: 0px;
+}
+.mai{
+  margin-top: 150px;
+}
+
+/* ----------media queries------------- */
+
+
+@media (max-width: 768px) {
+      .logo {
+        max-height: 40px;
+      }
+      .navbar-nav {
+        text-align: center;
+      }
+      .card {
+        width: 100% !important;
+        margin-bottom: 20px;
+      }
+      .image {
+        width: 20% !important;
+      }
+      .shutter {
+        margin: 10px 0 !important;
+      }
+      .bannerimg .col {
+        margin-bottom: 30px;
+      }
+      .counter h2, .counter h1 {
+        font-size: 1.5rem;
+      }
+      footer .col {
+        margin-bottom: 30px;
+        
+        
+      }
+    }
+
+
+    @media (min-width: 768px) {
+      .bg-aboutus {
+        height: 300px;
+      }
+      
+      .section-img {
+        margin-bottom: 0;
+      }
+    }
+
+
+    @media (max-width: 768px) {
+      .navbar-nav {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 10px;
+        border-radius: 5px;
+      }
+      
+      .bg-services {
+        height: 150px;
+      }
+      
+      .ser {
+        font-size: 2rem;
+      }
+      
+      .row {
+        margin-left: 0;
+        margin-right: 0;
+      }
+      
+      .col {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      
+      .ms-5 {
+        margin-left: 15px !important;
+      }
+      
+      h1 {
+        font-size: 1.8rem;
+      }
+      
+      h2 {
+        font-size: 1.5rem;
+      }
+      
+      h3 {
+        font-size: 1.2rem;
+      }
+    }
+    
+    @media (max-width: 576px) {
+      .logo {
+        max-width: 100px;
+      }
+      
+      .bg-services {
+        height: 120px;
+      }
+      
+      .ser {
+        font-size: 1.8rem;
+      }
+      
+      .roll, .ben {
+        padding: 15px !important;
+      }
+      
+      .footer-col {
+        margin-bottom: 20px;
+      }
+    }
+
+
+    @media (max-width: 768px) {
+      .navbar-nav {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 10px;
+        border-radius: 5px;
+      }
+      
+      .carousel-item img {
+        height: 250px;
+      }
+      
+      .hed {
+        font-size: 1.8rem;
+        margin: 20px 0;
+      }
+      
+      .project-img {
+        height: 200px;
+      }
+    }
+    
+    @media (max-width: 576px) {
+      .logo {
+        max-width: 100px;
+      }
+      
+      .carousel-item img {
+        height: 200px;
+      }
+      
+      .hed {
+        font-size: 1.5rem;
+      }
+      
+      .project-img {
+        height: 180px;
+      }
+      
+      .footer-col {
+        margin-bottom: 30px;
+      }
+    }
+
+     @media (max-width: 768px) {
+      .row {
+        flex-direction: column;
+      }
+      
+      .col {
+        margin-bottom: 30px;
+      }
+      
+      .work, .lead {
+        text-align: center;
+      }
+      
+      .tue {
+        flex-direction: column;
+        gap: 10px;
+      }
+      
+      .ms-2 {
+        margin-left: 0 !important;
+      }
+      
+      .navbar-nav {
+        text-align: center;
+      }
+    }
